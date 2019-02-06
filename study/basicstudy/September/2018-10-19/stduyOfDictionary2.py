@@ -1,0 +1,47 @@
+#学习字典的多级嵌套
+books={
+    '都市':{'lgx':['校园狂少',55]},
+    '言情':{'zsy':['何以笙箫默',45]},
+    '玄幻':{'dayan':["至尊少年王",100]},
+    '仙侠':{'liugongyu':['缥缈之旅',200]},
+    '同人':[]
+}
+video={
+
+    '都市':'北京的爱情故事',
+    '国漫':{'历史':['秦时明月','玄机动漫']},
+    1:5
+}
+print(books)
+print(books['仙侠']['liugongyu'][0])
+books['都市']['lgx'][1]=100
+print(books)
+#把字典的所有的值打印出来
+print(books.values())
+#把字典的key打印出来
+print(books.keys())
+#通过检查key是否存在,如果存在那能原值不变,否则更新新值
+books.setdefault('言情','我爱中国')#key和值存在的情况下
+print(books)
+books.setdefault('出版社','我不喜欢同人')
+print(books)
+books.update(video)#二个字典合并,相同的key,值要被后一个值取代,不同的key的增加
+print(books)
+print(books.items())#把一个字典变成列表
+'''
+坑
+'''
+c=dict.fromkeys([6,7,8],[1,{'name':"lgx"},111])
+c[7][1]['name']='hello'#明明只是想改key为7的值,但是所有的都改了
+print(c)
+c1=dict.fromkeys([6,7,8],[1,{'name':"lgx"},111])
+print(c1)
+'''
+字典的循环
+'''
+#循环一
+for i in books:
+    print(i,books[i])
+#循环二
+for k,v in books.items():
+    print(k,v)
