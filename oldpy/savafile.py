@@ -1,5 +1,8 @@
-with open("test.txt","r") as f:
-    print(f.readline())
+import pickle
+test2="it is test2"
+
+test=pickle.load(open('D:\\test.txt','rb'))
+print(test)
 
 
 

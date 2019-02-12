@@ -14,5 +14,5 @@ print(str.count("z"))#统计一个字符在字符串中的个数
 print(str.capitalize())#让字符串的首字母大写
 print(str.casefold())#把字符串中的大写变成小写
 print(str[8])#字符串的索引
-print(str[0:2])#字符串的切片
+print(str[0:44])#字符串的切片
 print(len(str))#字符串的长度
