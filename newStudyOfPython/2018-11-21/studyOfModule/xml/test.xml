@@ -1,8 +1,0 @@
-<?xml version='1.0' encoding='utf-8'?>
-<namelist>
-   <personInfo enrolled="yes">
-        <name checked="no">lgx</name>
-        <age checked="no">22</age>
-        <sex>廖国雄</sex>
-    </personInfo>
-</namelist>
