@@ -11,7 +11,7 @@ text='''
 <li class="item-0"><a href="link1.html">first time</a></li>
 <li class="item-1"><a href="link2.html">second time</a></li>
 <li class="item-inactive"><a href="link3.html">thrid time</a></li>
-<li class="item-1"><a href="link4.html">fourth time</a></li>
+<li class="item-2 item-1"><a href="link4.html">fourth time</a></li>
 <li class="item-0"><a href="link5.html">fifth time</a>
 </ul>
 </div>
@@ -100,4 +100,72 @@ print(res)
 可以先选定到特定的子孙节点,然后再调用text()方法获取文本
 '''
 res=html.xpath('//li[@class="item-inactive"]/a/text()')
+print(res)
+
+'''
+属性的获取:
+            获取所有li节点下所有a节点的属性
+'''
+print('属性的获取:')
+res=html.xpath('//li/a/@href')
+print(res)
+
+'''
+属性多值匹配:
+    当一个属性有多个值的时候,使用之前的属性匹配获取就不行了
+    需要用到contains()函数
+            
+'''
+print('属性多值匹配')
+res=html.xpath('//li[contains(@class,"item-2")]/a/text()')
+print(res)
+
+'''
+还有一种情况,一个节点内有多个属性,
+这时候就得同时匹配多个属性,使用运算符 and
+'''
+print('一个节点内有多个属性')
+res=html.xpath('//li[contains(@class,"item-2") and @name="lgx" ]/a/text()')
+print(res)
+
+
+'''
+按序选择
+        有时候我们选择某些属性的时候可能同时匹配了多个节点
+        但是只是想要一个或者某些,这时可以利用中括号传入索引的方法
+        获取特定的次序的节点,第一个是从1开始的
+'''
+print('按顺选择')
+#获取第一个节点
+res=html.xpath('//li[1]/a/text()')
+print(res)
+#获取最后一个节点
+res=html.xpath('//li[last()]/a/text()')
+print(res)
+#获取倒数2个字节
+res=html.xpath('//li[last()-1]/a/text()')
+print(res)
+res=html.xpath('//li[position()>2]/a/text()')
+print(res)
+
+'''
+节点轴选择,包括获取了子元素,兄弟元素,父元素,祖先元素
+
+'''
+print('节点轴选择,包括获取了子元素,兄弟元素,父元素,祖先元素')
+res=html.xpath('//li[1]/ancestor::*')
+print(res)
+res=html.xpath('//li[1]/ancestor::div')     #获取祖先节点
+print(res)
+res=html.xpath('//li[1]/attribute::*')      #获取属性值
+print(res)
+res=html.xpath('//li[1]/child::*')
+print(res)
+res=html.xpath('//li[1]/child::a[@href="link1.html"]')  #获取子节点,并指定条件
+print(res)
+res=html.xpath('//li[1]/descendant::*')                 #获取所有子孙节点
+print(res)
+res=html.xpath('//li[1]/following::*')                   #获取当前节点之后的所有节点
+print(res)
+res=html.xpath('//li[1]/following-sibling::*')           #获取当前节点之后的所有同级节点
 print(res)

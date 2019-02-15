@@ -1,4 +1,4 @@
-#！/usr/bin/env python
+ #！/usr/bin/env python
 #！@Author：lgx
 #！@时间：2019-01-30 10:16
 #!@Filename:compile()学习.py
@@ -16,3 +16,4 @@ res1=re.sub(pattern,'',content1)
 res2=re.sub(pattern,'',content2)
 res3=re.sub(pattern,'',content3)
 print(res1,res2,res3,sep='\n')
+
