@@ -26,6 +26,9 @@ html='''
 </div>
 '''
 
+'''
+节点选择器
+'''
 soup=BS(html,'lxml')
 print(soup)
 print(soup.title.string)        #获取网页中的标题的内容
@@ -86,7 +89,8 @@ print(list(soup.a.parents)[1])                  #soup.a.parents返回的是生�
 print(list(soup.a.parents)[1].attrs)            #取列表中第1个节点
 
 '''
-find_all()和find()方法
+find_all()和find()方法,前者返回所有匹配的原色组成的列表
+后者返回单个元素,也就是第一个原色
 '''
 print('#根据节点名来查询元素')
 print(soup.find_all(name='li'))         #根据节点名来查询元素
@@ -113,7 +117,59 @@ text参数可用来匹配节点的文本,传入的形式可以是字符串,也�
 compile方法可以将正则字符串编译成正则表达式对象,以便在后面的匹配中重复使用
 '''
 
-print(soup.find_all(text=re.compile('time')))
+print(soup.find_all(text=re.compile('time')))       #text参数可用来匹配节点的文本
+
+print('______________________________________________')
+'''
+ccs选择器,使用ccs选择器时,只需
+调用select()方法,传入相应的ccs选择器即可
+'''
+
+html1='''
+<div class="panel">
+<div class="panel-heading">
+<h4>hello</h4>
+</div>
+<div class="panel-body">
+<ul class="list" id="list-1">
+<li class="element">Foo</li>
+<li class="element">Bar</li>
+<li class="element">Jar</li>
+</ul>
+<ul class="list list-small" id="list-2">
+<li class="element">Foo</li>
+<li class="element">Bar</li>
+></ul>
+</div>
+</div>
+'''
+soup=BS(html1,"lxml")
+print(soup.select('.panel .panel-heading'))
+print(soup.select('ul li'))             #选择ul节点下的所有li节点,结果是所有li节点的列表
+print(soup.select('#list-2 .element'))
+print(soup.select('ul')[0])
+for ul in soup.select('ul'):
+    print(ul.select('li'))
+
+print('______________________________________________')
+
+'''
+获取属性,节点类型是Tag类型,所以获取属性
+的方法还用原来的方法
+'''
+for ul in soup.select('ul'):
+    print(ul['id'],ul.attrs['id'])
+
+print('______________________________________________')
+'''
+获取文本,当然可以使用前面的string方法,也可以使用get_text()
+'''
+for li in soup.select('li'):
+    print("string方法:",li.string)
+    print("get_text():",li.get_text())
+
+
+
 
 
 
