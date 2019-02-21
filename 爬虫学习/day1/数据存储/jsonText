@@ -1,0 +1,14 @@
+
+[{
+    "name":"lgx",
+    "gender":"man",
+    "birthday":"1996-09-27"
+},
+    {
+    "name":"zsy",
+    "gender":"female",
+    "birthday":"1997-06-21"
+    }
+
+]
+"\n[{\n    \"name\":\"廖国雄\",\n    \"gender\":\"男\",\n    \"birthday\":\"1996-09-27\"\n},\n    {\n    \"name\":\"郑诗雨\",\n    \"gender\":\"女\",\n    \"birthday\":\"1997-06-21\"\n    }\n\n]\n"
