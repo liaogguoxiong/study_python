@@ -9,9 +9,9 @@ timeout参数用于设置超时时间,单位为秒
 抛出异常,如果不指定,就是用全局默认
 '''
 
-import urllib.request
 import socket
 import urllib.error
+import urllib.request
 
 # respond=urllib.request.urlopen("http://httpbin.org/post",timeout=0.1)
 # print(respond.read())

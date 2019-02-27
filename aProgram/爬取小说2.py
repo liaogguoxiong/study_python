@@ -11,10 +11,12 @@
         找到章节内容的url,根据章节内容的url
         捕获小说内容,并写入文本中
 '''
-from lxml import etree
-import requests
 import re
 import time
+
+import requests
+
+
 def get_info_book(url,reg):
     '''
     此方法传入url和正则表达式来获取网页的内容

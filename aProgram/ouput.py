@@ -2,11 +2,11 @@
 #！@Author：lgx
 #！@时间：2019-01-17 13:41
 #!@Filename:ouput.py
-import selenium.webdriver
 import time
-from PIL import Image,ImageEnhance
-import pytesseract
 
+import pytesseract
+import selenium.webdriver
+from PIL import Image, ImageEnhance
 
 driver=selenium.webdriver.Chrome()
 url='http://192.168.20.57:9081/zzs_kpfw_manager/login.htm'

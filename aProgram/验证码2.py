@@ -4,7 +4,6 @@
 #!@Filename:验证码2.py
 
 from PIL import Image,ImageDraw
-import sys,os
 
 
 # 二值化处理

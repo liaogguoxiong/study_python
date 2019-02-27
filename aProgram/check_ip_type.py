@@ -5,10 +5,6 @@
 '''
 根据输入的ip来判断是否合法,已经写入文件中
 '''
-import os
-import re
-import os
-import tkinter.filedialog
 
 
 def check_ip_type(ip):

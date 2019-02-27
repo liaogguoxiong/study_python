@@ -3,7 +3,9 @@
 #！@时间：2019-02-01 11:46
 #!@Filename:1111111111.py
 import re
+
 import requests
+
 url='https://www.biqiuge.com/book/3773/429520639.html'
 headers = {
         'user - agent': 'Mozilla / 5.0(Windows NT 6.1;Win64;x64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 71.0.3578.98Safari / 537.36'

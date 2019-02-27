@@ -2,8 +2,8 @@
 #！@Author：lgx
 #！@时间：2018-11-14 11:31
 #!@Filename:threadTest.py
-import time
 import threading
+import time
 
 
 def test():

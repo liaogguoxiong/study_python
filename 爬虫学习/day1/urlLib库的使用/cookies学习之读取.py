@@ -7,7 +7,8 @@
 从保存cookies的文件中读取cookie
 '''
 
-import http.cookiejar,urllib.request
+import http.cookiejar
+import urllib.request
 
 cookie=http.cookiejar.MozillaCookieJar()
 cookie.load('cookies.txt',ignore_expires=True,ignore_discard=True)

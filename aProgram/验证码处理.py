@@ -3,7 +3,7 @@
 #！@时间：2019-01-18 13:51
 #!@Filename:验证码处理.py
 
-from PIL import Image,ImageEnhance
+from PIL import Image
 
 
 def get_bin_table(threshold=115):

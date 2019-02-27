@@ -6,12 +6,11 @@
 
 #写一个爬虫,爬取一个斗图网站的表情包。
 
-import re
+import os
+import urllib.request
+
 import requests
 from bs4 import BeautifulSoup
-import urllib.request
-import os
-
 
 '''
 分页处理：通过分析网页的链接发现，链接的前部分是是相同的，区别在最后

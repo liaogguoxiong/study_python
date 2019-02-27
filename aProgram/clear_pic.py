@@ -3,8 +3,9 @@
 #！@时间：2019-01-18 11:49
 #!@Filename:clear_pic.py
 
-from PIL import Image
 import numpy as np
+from PIL import Image
+
 inputfile="C:/Users/xiao/Desktop/picture/pic2.png"
 
 def clearNoise(data):

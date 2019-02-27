@@ -3,7 +3,6 @@
 #文件名：  studyOfShelve
 
 import shelve
-import datetime
 
 '''
 shelve模块是一种持久化技术,

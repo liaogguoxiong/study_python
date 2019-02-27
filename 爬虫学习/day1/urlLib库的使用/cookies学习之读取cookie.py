@@ -3,7 +3,9 @@
 #！@时间：2019-01-23 11:42
 #!@Filename:cookies学习之读取cookie.py
 
-import http.cookiejar,urllib.request
+import http.cookiejar
+import urllib.request
+
 # cookie=http.cookiejar.CookieJar()
 # handler=urllib.request.HTTPCookieProcessor(cookie)
 # opener=urllib.request.build_opener(handler)

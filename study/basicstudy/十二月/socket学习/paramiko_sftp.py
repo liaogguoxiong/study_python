@@ -5,9 +5,10 @@
 使用paramiko模块来做ftp服务器
 '''
 import os
-import paramiko
-import tkinter
 import tkinter.filedialog
+
+import paramiko
+
 #调用paramiko中的Transport类,创建对象
 transport=paramiko.Transport(('192.168.235.128',22))
 #建立链接通道

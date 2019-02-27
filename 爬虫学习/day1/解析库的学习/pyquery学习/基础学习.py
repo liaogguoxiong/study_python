@@ -200,3 +200,70 @@ print(a.html())
 
 for item in a.items():
     print(item.html())
+print('______________________________________________________')
+'''
+节点操作,pyquery提供了一系列方法来对节点进行动态修改,
+比如为某个节点添加一个class,移除某个节点等,使用addClass和
+removeClass方法可以动态地改变节点的属性
+'''
+
+doc=pq(filename='test.html')
+li=doc('.item-inactive')
+print(li)
+li.removeClass('item-inactive')
+print(li)
+li.addClass('item-inactive')
+print(li)
+print('______________________________________________________')
+'''
+修改节点:
+attr():可以传入2个参数,第一个参数为属性名,第二个参数为属性值.
+如果只传入属性名,是获取属性值.传入属性名和属性值的话,是改变属性值
+text()和html()如果不传入值的话,是获取文本,传入参数,是改变文本或者html
+'''
+li=doc('.item-0')
+print(li)
+li.attr('class','lgx')
+print(li)
+print(li.text())
+li.text('我是廖国雄')
+print(li.text())
+print(li.html())
+# li.html('<span>change item</span>')               #html方法书上说是输出html代码,但是这里是纯文本
+# print(li)
+
+print('______________________________________________________')
+
+'''
+remove()方法就是移除
+'''
+html='''
+<div class="wrap">
+    hello,world
+<p>This is a paragraph.</p>
+</div>
+'''
+doc=pq(html)
+print(doc.text())           #如果只想获取hello,world的话,直接使用text()方法不能够实现
+doc.remove('p')
+print(doc)
+print(doc.text())           #先把p节点去掉,然后再使用text()方法
+
+'''
+伪类选择器
+ccs选择器之所以强大,还有一个重要原因是它
+支持多种多样的伪类选择器,例如选择第一个节点,最后一个节点
+奇偶节点,包含某一文本的节点
+'''
+print('______________________________________________________')
+doc=pq(filename='test.html')
+li=doc('li:first-child')
+print(li)
+li=doc('li:last-child')
+print(li)
+li=doc('li:gt(1)')                  #从0开始,大于1的节点
+print(li)
+li=doc('li:nth-child(2n)')
+print(li)
+li=doc('li:contains(fourth)')
+print(li)

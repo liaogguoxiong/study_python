@@ -1,4 +1,3 @@
-import sys
 import getpass
 name="lgx"
 pw="liao0121"

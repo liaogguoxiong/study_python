@@ -3,10 +3,11 @@
 #！@时间：2019-01-18 13:53
 #!@Filename:抓取验证码素材.py
 
-import selenium.webdriver
 import time
-from PIL import Image,ImageEnhance
-import pytesseract
+
+import selenium.webdriver
+from PIL import Image
+
 for i in range(1):
     driver=selenium.webdriver.Chrome()
     url='http://192.168.20.57:9081/zzs_kpfw_manager/login.htm'

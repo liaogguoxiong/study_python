@@ -2,7 +2,10 @@
 #！@Author：lgx
 #！@时间：2019-01-30 11:16
 #!@Filename:111111111.py
-import requests,re,json
+import json
+import re
+import requests
+
 url_list=[]
 base_url='https://maoyan.com/board/4?offset='
 for i in range(10):

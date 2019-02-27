@@ -6,8 +6,8 @@
 '''
 study the module of time and datetime,学习常用模块中的time和datatime模块
 '''
-import time
 import datetime
+import time
 
 #返回处理器时间
 print(time.process_time())

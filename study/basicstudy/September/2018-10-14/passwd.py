@@ -1,4 +1,3 @@
-import getpass
 '''
 Program:介绍if-else流程
 History：lgx     2018-10-14      First release

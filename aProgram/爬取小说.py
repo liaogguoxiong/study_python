@@ -5,8 +5,10 @@
 '''
 爬取笔趣阁中的小说
 '''
-import requests
 import re
+
+import requests
+
 
 def get_info_book(url,reg):
     '''

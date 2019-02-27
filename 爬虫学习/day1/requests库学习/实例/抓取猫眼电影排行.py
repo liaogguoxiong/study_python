@@ -6,9 +6,11 @@
 抓取猫眼电影网站的电影排行
 url=
 '''
-import requests
-import re
 import json
+import re
+
+import requests
+
 
 def get_page_url():
     '''

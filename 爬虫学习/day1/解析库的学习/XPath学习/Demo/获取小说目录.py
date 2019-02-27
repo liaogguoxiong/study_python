@@ -6,8 +6,9 @@
 '''
 使用xpath来获取小说的目录
 '''
-from lxml import etree
 import requests
+from lxml import etree
+
 headers = {
         'user - agent': 'Mozilla / 5.0(Windows NT 6.1;Win64;x64) AppleWebKit / 537.36(KHTML, likeGecko) Chrome / 71.0.3578.98Safari / 537.36'
     }

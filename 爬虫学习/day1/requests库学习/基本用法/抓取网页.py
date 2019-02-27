@@ -7,7 +7,9 @@
 抓取的页面url:https://www.zhihu.com/explore
 '''
 import re
+
 import requests
+
 url="https://www.zhihu.com/explore"
 #构造头部信息,伪造为浏览器访问
 headers={

@@ -7,8 +7,10 @@
 BeautifulSoup是python的一个html或者xml
 的解析库,可以用它来方便地从网页中提取数据
 '''
-from bs4 import BeautifulSoup as BS
 import re
+
+from bs4 import BeautifulSoup as BS
+
 soup=BS('<p>hello</p>','lxml')
 print(soup)
 html='''
@@ -90,7 +92,7 @@ print(list(soup.a.parents)[1].attrs)            #取列表中第1个节点
 
 '''
 find_all()和find()方法,前者返回所有匹配的原色组成的列表
-后者返回单个元素,也就是第一个原色
+后者返回单个元素,也就是第一个元素
 '''
 print('#根据节点名来查询元素')
 print(soup.find_all(name='li'))         #根据节点名来查询元素
@@ -167,6 +169,7 @@ print('______________________________________________')
 for li in soup.select('li'):
     print("string方法:",li.string)
     print("get_text():",li.get_text())
+
 
 
 

@@ -4,7 +4,7 @@
 #!@Filename:studyOfRandom.py
 
 import random
-import time
+
 # while True:
 #      time.sleep(1)
 #      #print(random.randint(1,2))#随机生成1和2的随机数

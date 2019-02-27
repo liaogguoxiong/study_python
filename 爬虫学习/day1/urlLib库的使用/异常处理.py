@@ -49,7 +49,6 @@ URLError是HTTPError的父类,会先捕获子类的错误
 '''
 
 import socket
-import urllib.response
 import urllib.error
 try:
     response=urllib.request.urlopen("https://www.baidu.com",timeout=0.01)
