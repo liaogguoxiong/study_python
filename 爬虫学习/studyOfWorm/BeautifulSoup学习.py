@@ -1,9 +1,8 @@
 #时间：    2018/12/20 19:37
 #作者：    lgx
 #文件名：  BeautifulSoup学习
-import requests
 from bs4 import BeautifulSoup
-
+import requests
 try:
     res=requests.get('https://python123.io/ws/demo.html')
     # print(res.status_code)

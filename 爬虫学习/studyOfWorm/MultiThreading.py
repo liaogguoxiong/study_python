@@ -4,8 +4,8 @@
 
 #今天来学习多线程
 
-import random
 import threading
+import random
 import time
 
 MONEY=0#需要加上全局锁

@@ -2,12 +2,13 @@
 #作者：    lgx
 #文件名：  cookie登录
 
+import requests
+import selenium.webdriver
 import time
+from PIL import Image,ImageEnhance
+import pytesseract
 import urllib
 
-import pytesseract
-import selenium.webdriver
-from PIL import Image, ImageEnhance
 
 url="http://192.168.20.57:9081/zzs_kpfw_manager/index.htm"
 driver=selenium.webdriver.Chrome()

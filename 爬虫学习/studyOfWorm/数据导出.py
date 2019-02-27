@@ -5,9 +5,8 @@
 '''
 登录c48导出开票数据和月度统计
 '''
-import time
-
 import selenium.webdriver
+import time
 
 url='http://192.168.20.57:9081/zzs_kpfw_manager'
 driver=selenium.webdriver.Chrome()

@@ -3,6 +3,7 @@
 #文件名：  First
 
 #今天第一天来学习网络爬虫
+import requests
 from bs4 import BeautifulSoup
 
 html_sample=' \

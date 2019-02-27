@@ -11,11 +11,9 @@ dt=datetime.strptime(str,'%Y年%m月%d日%H%M')
 dt.strftime(%Y-%m-%d)
 '''
 
-from datetime import datetime
-
 import requests
 from bs4 import BeautifulSoup
-
+from datetime import datetime
 res=requests.get('https://mil.news.sina.com.cn/2018-11-11/doc-ihnstwwq6096324.shtml')
 res.encoding='utf-8'
 soup=BeautifulSoup(res.text,'html.parser')

@@ -6,12 +6,9 @@
 查出归属
 做是做出来了,但是成功率太低
 '''
-import re
-
 import requests
 from bs4 import BeautifulSoup
-
-
+import re
 def getIpHtml(url):
     try:
         hd={"User-Agent":"Mozilla/5.00"}

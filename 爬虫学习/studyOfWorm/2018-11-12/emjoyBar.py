@@ -3,13 +3,12 @@
 #文件名：  emjoyBar
 
 
-import os
-import urllib.request
-
-# 本程序实现的功能：爬取斗图网上面的表情包，并下载下来
+#本程序实现的功能：爬取斗图网上面的表情包，并下载下来
 import requests
-from bs4 import BeautifulSoup
-
+from  bs4 import BeautifulSoup
+import urllib.request
+import re
+import os
 BASE_URL='http://www.doutula.com/photo/list/?page='
 imageCount=0
 def download(url):

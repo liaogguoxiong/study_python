@@ -3,9 +3,14 @@
 #！@时间：2019-02-19 14:53
 #!@Filename:ps4.py
 
+<<<<<<< HEAD
 import requests
 from pyquery import PyQuery as pq
 
+=======
+from pyquery import PyQuery as pq
+import requests
+>>>>>>> origin/master
 # import selenium.webdriver
 #
 # driver=selenium.webdriver.Chrome()

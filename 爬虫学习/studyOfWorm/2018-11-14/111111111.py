@@ -3,8 +3,7 @@
 #文件名：  111111111
 import requests
 from bs4 import BeautifulSoup
-
-
+import re
 def getIpHtml(url):
     try:
         hd={"User-Agent":"Mozilla/5.00"}

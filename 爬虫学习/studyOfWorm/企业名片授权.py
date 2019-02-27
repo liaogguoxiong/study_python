@@ -2,10 +2,8 @@
 #作者：    lgx
 #文件名：  企业名片授权
 
-import time
-
 import selenium.webdriver
-
+import time
 dir={
 
     '91440300715256261T':'56261T',

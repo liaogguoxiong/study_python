@@ -1,10 +1,8 @@
 #时间：    2019/1/9 21:50
 #作者：    lgx
 #文件名：  淘宝签到
-import time
-
 from selenium import webdriver
-
+import time
 url='https://tieba.baidu.com/index.html#'
 driver=webdriver.Chrome()
 driver.get(url)

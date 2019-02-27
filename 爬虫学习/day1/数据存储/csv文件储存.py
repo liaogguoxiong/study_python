@@ -14,9 +14,13 @@ csv,全称为comma-separated values,中文叫做
 '''
 
 import csv
+<<<<<<< HEAD
 
 import pandas
 
+=======
+import pandas
+>>>>>>> origin/master
 '''
 一个简单的例子
 '''

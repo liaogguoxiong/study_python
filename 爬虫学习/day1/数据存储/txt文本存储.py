@@ -9,7 +9,11 @@
 '''
 import requests
 from pyquery import  PyQuery as pq
+<<<<<<< HEAD
 
+=======
+import re
+>>>>>>> origin/master
 url='https://www.zhihu.com/explore'
 headers={
         'user-agent':'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36'

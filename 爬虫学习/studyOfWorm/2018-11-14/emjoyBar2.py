@@ -10,13 +10,12 @@
 线程读取的还是原来的数据，就容易出错，所以使用线程锁
 
 """
-import os
-import threading
-import urllib.request
-
 import requests
 from bs4 import BeautifulSoup
-
+import os
+import re
+import threading
+import urllib.request
 gLock=threading.Lock()#定义全局锁
 PAGE_URL_LIST=[]#用来存取页码的url，提供给生产者获取所有的图片url
 IMAGE_URL_LIST=[]#用来存取图片的url，提供给消费者下载图片
