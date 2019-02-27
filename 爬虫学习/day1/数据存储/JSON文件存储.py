@@ -76,5 +76,5 @@ info='''
 # with open('jsonText','a',encoding='utf-8') as f:
 #     f.write(json.dumps(info))                   #中文字符变成了unicode字符
 with open('jsonText','a',encoding='utf-8') as f:
-    f.write(json.dumps(info,ensure_ascii=False))
+    f.write(info)
 
