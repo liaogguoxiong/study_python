@@ -1,0 +1,26 @@
+
+[{
+    "name":"lgx",
+    "gender":"man",
+    "birthday":"1996-09-27"
+},
+    {
+    "name":"zsy",
+    "gender":"female",
+    "birthday":"1997-06-21"
+    }
+
+]
+
+[{
+    "name":"廖国雄",
+    "gender":"男",
+    "birthday":"1996-09-27"
+},
+    {
+    "name":"郑诗雨",
+    "gender":"女",
+    "birthday":"1997-06-21"
+    }
+
+]
