@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f4ae009-0d1d-4e52-aefe-bbbd8a097cba" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitProject" beforeDir="false" afterPath="$PROJECT_DIR$/gitProject" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细1.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/调试.py" beforeDir="false" afterPath="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/调试.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +41,7 @@
     <SUITE FILE_PATH="coverage/pythoncode$DemoOfDecorator.coverage" NAME="DemoOfDecorator Coverage Results" MODIFIED="1541555967896" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newStudyOfPython/2018-11-05" />
     <SUITE FILE_PATH="coverage/pythoncode$readConfigparser.coverage" NAME="readConfigparser Coverage Results" MODIFIED="1543298205593" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newStudyOfPython/2018-11-27/configparserModule" />
     <SUITE FILE_PATH="coverage/pythoncode$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1543905561454" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newStudyOfPython/2018-11-29/studyOfObjectOriented" />
-    <SUITE FILE_PATH="coverage/pythoncode$.coverage" NAME="调试 Coverage Results" MODIFIED="1551323289762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo" />
+    <SUITE FILE_PATH="coverage/pythoncode$.coverage" NAME="调试 Coverage Results" MODIFIED="1551416561969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo" />
     <SUITE FILE_PATH="coverage/pythoncode$JSON.coverage" NAME="JSON文件存储 Coverage Results" MODIFIED="1550735996371" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitProject/爬虫学习/day1/数据存储" />
     <SUITE FILE_PATH="coverage/pythoncode$makeWifeProgram.coverage" NAME="makeWifeProgram Coverage Results" MODIFIED="1543393307959" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aProgram" />
     <SUITE FILE_PATH="coverage/pythoncode$clear_pic.coverage" NAME="clear_pic Coverage Results" MODIFIED="1547789685815" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/aProgram" />
@@ -51,7 +51,7 @@
     <SUITE FILE_PATH="coverage/pythoncode$test.coverage" NAME="test Coverage Results" MODIFIED="1542011680520" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newStudyOfPython" />
     <SUITE FILE_PATH="coverage/pythoncode$data__1_.coverage" NAME="data参数 (1) Coverage Results" MODIFIED="1548128885907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/day1/urlLib库的使用" />
     <SUITE FILE_PATH="coverage/pythoncode$Request.coverage" NAME="Request学习 Coverage Results" MODIFIED="1548138166447" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/爬虫学习/day1/urlLib库的使用" />
-    <SUITE FILE_PATH="coverage/pythoncode$mysql1.coverage" NAME="mysql导出明细1 Coverage Results" MODIFIED="1551333448187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo" />
+    <SUITE FILE_PATH="coverage/pythoncode$mysql1.coverage" NAME="mysql导出明细1 Coverage Results" MODIFIED="1551425678540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo" />
     <SUITE FILE_PATH="coverage/pythoncode$homework2.coverage" NAME="homework2 Coverage Results" MODIFIED="1541131261054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newStudyOfPython/2018-11-01" />
     <SUITE FILE_PATH="coverage/pythoncode$studyOfDictionary.coverage" NAME="studyOfDictionary Coverage Results" MODIFIED="1540978071611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/newStudyOfPython" />
     <SUITE FILE_PATH="coverage/pythoncode$Unnamed.coverage" NAME="Unnamed Coverage Results" MODIFIED="1540957612230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
@@ -164,8 +164,8 @@
           <entry key="html" value="100" />
           <entry key="ini" value="3" />
           <entry key="jsonText" value="3" />
-          <entry key="py" value="57013" />
-          <entry key="txt" value="15" />
+          <entry key="py" value="57636" />
+          <entry key="txt" value="40" />
           <entry key="xml" value="19" />
         </counts>
       </usages-collector>
@@ -173,8 +173,8 @@
         <counts>
           <entry key="HTML" value="100" />
           <entry key="Ini" value="3" />
-          <entry key="PLAIN_TEXT" value="289" />
-          <entry key="Python" value="57011" />
+          <entry key="PLAIN_TEXT" value="314" />
+          <entry key="Python" value="57634" />
           <entry key="RegExp" value="2" />
         </counts>
       </usages-collector>
@@ -189,7 +189,7 @@
         <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
-              <caret line="7" column="14" lean-forward="true" selection-end-line="65" selection-end-column="9" />
+              <caret line="7" column="14" selection-end-line="65" selection-end-column="9" />
               <folding>
                 <element signature="e#85#95#0" expanded="true" />
               </folding>
@@ -200,13 +200,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+            <state relative-caret-position="2952">
+              <caret line="181" column="26" selection-start-line="181" selection-start-column="26" selection-end-line="181" selection-end-column="26" />
               <folding>
                 <element signature="e#85#99#0" expanded="true" />
                 <element signature="e#0#814#0" />
-                <element signature="e#2793#2817#0" />
-                <marker date="1551333485123" expanded="true" signature="169:170" ph="..." />
+                <element signature="e#3115#3994#0" />
+                <element signature="e#4427#4942#0" />
+                <marker date="1551425604264" expanded="true" signature="169:170" ph="..." />
               </folding>
             </state>
           </provider>
@@ -215,8 +216,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/调试.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="366">
-              <caret line="50" column="73" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="73" />
+            <state relative-caret-position="414">
+              <caret line="55" selection-start-line="55" selection-end-line="55" />
             </state>
           </provider>
         </entry>
@@ -716,20 +717,26 @@
       <option name="project" value="LOCAL" />
       <updated>1551318386533</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="基本完成发票明细导出的功能,还需要做些优化">
+      <created>1551333632893</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1551333632894</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" weight="0.27382752" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.497545" visible="true" weight="0.27382752" />
       <window_info id="Structure" order="1" sideWeight="0.50252527" side_tool="true" weight="0.2193646" />
       <window_info id="Favorites" order="2" sideWeight="0.502455" side_tool="true" weight="0.22844176" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49924356" weight="0.32569557" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4977307" visible="true" weight="0.46317512" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39770868" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4977307" weight="0.46317512" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.5417349" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -756,7 +763,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="合并公司电脑上学的东西" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="基本完成发票明细导出的功能,还需要做些优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="基本完成发票明细导出的功能,还需要做些优化" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1453,32 +1461,33 @@
     <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/91440400MA4UWXMX67.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/调试.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="7" column="14" lean-forward="true" selection-end-line="65" selection-end-column="9" />
+          <caret line="7" column="14" selection-end-line="65" selection-end-column="9" />
           <folding>
             <element signature="e#85#95#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/调试.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="366">
-          <caret line="50" column="73" lean-forward="true" selection-start-line="50" selection-start-column="4" selection-end-line="50" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gitProject/爬虫学习/day1/关系型数据库存储/Demo/mysql导出明细1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
+        <state relative-caret-position="2952">
+          <caret line="181" column="26" selection-start-line="181" selection-start-column="26" selection-end-line="181" selection-end-column="26" />
           <folding>
             <element signature="e#85#99#0" expanded="true" />
             <element signature="e#0#814#0" />
-            <element signature="e#2793#2817#0" />
-            <marker date="1551333485123" expanded="true" signature="169:170" ph="..." />
+            <element signature="e#3115#3994#0" />
+            <element signature="e#4427#4942#0" />
+            <marker date="1551425604264" expanded="true" signature="169:170" ph="..." />
           </folding>
         </state>
       </provider>
